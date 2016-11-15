@@ -69,10 +69,10 @@ var CollapseLogLine = function (_Component) {
   }, {
     key: 'render',
     value: function render() {
-      var _props = this.props;
-      var showCollapse = _props.showCollapse;
-      var line = _props.line;
-      var number = _props.number;
+      var _props = this.props,
+          showCollapse = _props.showCollapse,
+          line = _props.line,
+          number = _props.number;
 
 
       return _react2.default.createElement(
@@ -180,8 +180,8 @@ var CollapseLogGroup = function (_Component2) {
   }, {
     key: 'renderChild',
     value: function renderChild(_ref) {
-      var line = _ref.line;
-      var number = _ref.number;
+      var line = _ref.line,
+          number = _ref.number;
 
       return _react2.default.createElement(CollapseLogLine, { line: line, number: number, key: number });
     }
@@ -189,9 +189,9 @@ var CollapseLogGroup = function (_Component2) {
     key: 'render',
     value: function render() {
       var group = this.props.group;
-      var _group$ = group[0];
-      var line = _group$.line;
-      var number = _group$.number;
+      var _group$ = group[0],
+          line = _group$.line,
+          number = _group$.number;
 
 
       return _react2.default.createElement(
