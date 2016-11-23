@@ -31,3 +31,6 @@ function Test() {
 [Live Demo](https://beijaflor-io.github.io/react-collapse-logs/)
 
 ![](/screenshot.png)
+
+## License
+MIT
